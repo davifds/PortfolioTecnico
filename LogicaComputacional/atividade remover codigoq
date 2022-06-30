@@ -1,0 +1,9 @@
+ private void btnrmvActionPerformed(java.awt.event.ActionEvent evt) {                                       
+        String elemento = campoItem.getText();//Obter Texto
+        if (verificaSeExiste(elemento) == false) {
+            JOptionPane.showMessageDialog(this, "Este item não existe!");
+        } else {
+            lista.remove(elemento);// remover items da lista
+            campoItem.setText(null);//Limpar o campo de texto
+            exibeLista();
+        }
