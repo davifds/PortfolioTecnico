@@ -106,3 +106,9 @@ function somar(a, b) {
 }
 const a = [10, 22, 35]
 console.log(somar(a))
+
+
+//Atividade 9
+
+
+//Atividade 10
