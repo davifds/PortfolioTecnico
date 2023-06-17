@@ -95,3 +95,14 @@ console.log(repetir('B', 4))
 
 
 //Atividade 7
+
+//Atividade 8
+function somar(a, b) {
+  let soma = 0;
+  for (let b = 0; b < a.length; b++) {
+    soma += a[b];
+  }
+  return soma;
+}
+const a = [10, 22, 35]
+console.log(somar(a))
