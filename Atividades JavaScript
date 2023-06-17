@@ -81,15 +81,15 @@ console.log(multiplicar(8, 6))
 //Atividade 6
 function repetir(elemento, repeticao) {
   if (repeticao <= 0) {
-    return [];
+    return []
   }
 
-  const arrayRepetido = [];
+  const arrayRepetido = []
   for (let i = 0; i < repeticao; i++) {
     arrayRepetido.push(elemento);
   }
 
-  return arrayRepetido;
+  return arrayRepetido
 }
 console.log(repetir('B', 4))
 
