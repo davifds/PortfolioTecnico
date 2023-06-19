@@ -1,4 +1,4 @@
-//Atividade 1
+//Atividade 1:
 function numeros(a,b){
 
     if ( a > b) {
@@ -12,7 +12,7 @@ function numeros(a,b){
 numeros(20, 10)
 
 
-//Atividade 2
+//Atividade 2:
 function idade(a){
 
     if(a < 0){
@@ -24,7 +24,7 @@ function idade(a){
 console.log(idade(10))
 
 
-//Atividade 3
+//Atividade 3:
 function mes(a){
 
     switch(a){
@@ -62,7 +62,7 @@ mes(8)
 //Atividade 4
 
 
-//Atividade 5
+//Atividade 5:
 function multiplicar(a, b) {
     if (a === 0 || b === 0) {
       return 0
@@ -78,7 +78,7 @@ function multiplicar(a, b) {
 console.log(multiplicar(8, 6))
 
 
-//Atividade 6
+//Atividade 6:
 function repetir(elemento, repeticao) {
   if (repeticao <= 0) {
     return []
@@ -91,12 +91,12 @@ function repetir(elemento, repeticao) {
 
   return arrayRepetido
 }
-console.log(repetir('B', 4))
+console.log(repetir('D', 4))
 
 
-//Atividade 7
+//Atividade 7:
 
-//Atividade 8
+//Atividade 8:
 function somar(a, b) {
   let soma = 0;
   for (let b = 0; b < a.length; b++) {
@@ -108,7 +108,7 @@ const a = [10, 22, 35]
 console.log(somar(a))
 
 
-//Atividade 9
+//Atividade 9:
 
 
-//Atividade 10
+//Atividade 10:
