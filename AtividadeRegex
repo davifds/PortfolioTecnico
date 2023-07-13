@@ -1,0 +1,22 @@
+1:
+const regex = (/[t]/g)
+const string = "teste 12 teste"
+const novaString = string.replace(regex, "7");
+console.log(novaString);
+
+
+2:
+const string = "If you died right now, I'd die by your side, If you asked me to, I'd take my own life, For you, I don't mind, for you, I don't mind"
+const regex = (/[f]/ig)
+const found = string.match(regex);
+console.log(found);
+
+
+3:
+function stringSplit(){
+    var str = "If you died right now!"
+    var n = str.split(/[\f\d\r]/i);
+    console.log(n)
+}
+
+stringSplit()
